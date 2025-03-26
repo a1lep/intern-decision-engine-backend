@@ -16,6 +16,14 @@ The previous implementation had incorrect logic for determining the credit modif
     - Last digit is 7 or 2 → Segment 2 (Credit Modifier: `300`)
     - Any other digit → Segment 3 (Credit Modifier: `1000`)
 
+## Implemented and Tested Ticket 102
+
+### Implementation Details:
+
+- Implemented age related restrictions to decision engine.
+- The logic and tests were implemented in a way that aligns with the existing code structure.
+- Consistency with the original codebase was maintained.
+
 ---
 
 ## Code Review
